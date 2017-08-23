@@ -166,7 +166,7 @@ textarea {
 #menu-accordeon li:hover li {
   max-height: 15em;
 }
-/*en of the css menu button*/
+/*end of the css menu button*/
 
 /*placement du boutton menu :menubutton*/
 .menubutton{
@@ -189,6 +189,7 @@ header{
 
 }
 
+/*Main title*/
 h1{
     margin-top: 1.7em;
     text-align: center;
@@ -196,24 +197,14 @@ h1{
    /* font-size: 26px;*/
    font-size: 300%;
   font-family: 'Indie Flower';
-  border: 3px black solid;
   /*background-color: silver;*/
   background-color: #DBDBDB;
 }
+/*end of main title*/
 
-
-h5{
-    margin-top:0em;
-    /*color: #D4CAC7;*/
-    color: black;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Dancing Script';
-
-}
-
+/*second title*/
 h4{
-  border: 3px black solid;
+  
   background-color: silver;
   margin-top:0em;
   color: black;
@@ -221,19 +212,21 @@ h4{
   font-size: 25px;
   font-family: 'Dancing Script'
 }
-
-
-
-
-.minititlewhite{
-   font-size: 20px;
-  color: black;
-  margin: auto;
-  width: 90%;
-  margin-bottom: 1em;
-}
+/*end of second title*/
 
 /*end of header*/
+
+/*star of page title*/
+h5{
+    margin-top:0em;
+    /*color: #D4CAC7;*/
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Dancing Script';
+}
+/*end of page title*/
+
 
 /*star of div container*/
 
@@ -323,6 +316,7 @@ img{
 .marine{
   width: 81px;
   height: 81px;
+  margin-bottom: 1em;
 }
 
 /*end of my pictures*/
@@ -341,20 +335,33 @@ img{
   color: white;
 }
 
+/*star of footer*/
 footer{
     background-color: black;
 }
 
 button{
-  background-color: black;
-  color: white;
-  margin-top: 1em;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
 }
 
 .retour{
   display: flex;
   justify-content: center
 }
+
+.retour{
+  padding-bottom: 3em;
+}
+
+figure{
+  display: flex;
+  justify-content: right;
+}
+
+
+/*end of footer*/
 
 /*end of my projects*/
 
@@ -390,6 +397,8 @@ img{
 @media (min-width: 1280px){  
 
 
+
+}
 
 
 
