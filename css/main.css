@@ -257,6 +257,7 @@ p{
 }
 
 span{
+  margin-left: 1em;
   font-family: 'Rajdhani';
   font-weight: bold;
   color: white
@@ -313,7 +314,7 @@ img{
   height: 95px;
 }
 
-.marine{
+.marine, .terre, .gn{
   width: 81px;
   height: 81px;
   margin-bottom: 1em;
@@ -340,10 +341,12 @@ footer{
     background-color: black;
 }
 
+
 button{
   background-color: white;
   color: black;
   border-radius: 10px;
+  margin-bottom: 5em;
 }
 
 .retour{
