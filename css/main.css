@@ -414,6 +414,10 @@ figure{
   display: flex;
   justify-content: right;
 }
+/*end of footer*/
+
+
+/*animation avec glissement d'un bloc*/
 
 .container {
   animation-duration: 8s;
